@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'film_app'
+    'film_app',
     'bootstrap3',
     'rest_framework',
     'django_extensions'
