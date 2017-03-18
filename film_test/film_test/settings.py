@@ -83,7 +83,7 @@ DATABASES = {
         'NAME': 'movie_taste',
         'ENGINE': 'mysql.connector.django',
         'USER': 'root',
-        'PASSWORD': 'coderslab',
+        'PASSWORD': 'krowia',
         'OPTIONS': {
             'autocommit': True,
         },
