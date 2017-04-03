@@ -25,9 +25,26 @@ GENERE = (
 )
 
 
+# Create your models here.
 class Movie(models.Model):
     title = models.CharField(max_length=64)
     rating = models.IntegerField(choices=RANK_CHOICE, default=-1)
     genere = models.IntegerField(choices=GENERE, default=-1)
 
-# Create your models here.
+class Player(models.Model):
+    name = models.CharField(max_length=64)
+    age = models.IntegerField
+    famous_actor = models.ManyTo
+    ocupation = models.CharField(max_length=64)
+    sex = models.IntegerField(choices=SEX, default=-1)
+    your_mood = models.IntegerField
+    alone_or_not = 
+    
+
+
+
+class Actor(models.Model):
+    name = models.CharField(max_length=64)
+    surname = models.CharField(max_length=64)
+    
+
