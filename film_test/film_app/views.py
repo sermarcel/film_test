@@ -7,3 +7,5 @@ class AddMovie (CreateView):
     model = Movie
     fields = '__all__'
     template_name = '/add_movie.html'
+
+
